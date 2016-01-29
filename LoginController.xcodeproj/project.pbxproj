@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C2057285DE030CFF569F75 /* Pods_LoginController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA84F176DF7354F44B77E475 /* Pods_LoginController.framework */; };
+		B3FC87831C59CF2F009CE64E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87821C59CF2F009CE64E /* main.m */; };
+		B3FC87861C59CF2F009CE64E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87851C59CF2F009CE64E /* AppDelegate.m */; };
+		B3FC87891C59CF2F009CE64E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87881C59CF2F009CE64E /* ViewController.m */; };
+		B3FC878C1C59CF2F009CE64E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FC878A1C59CF2F009CE64E /* Main.storyboard */; };
+		B3FC878E1C59CF2F009CE64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FC878D1C59CF2F009CE64E /* Assets.xcassets */; };
+		B3FC87911C59CF2F009CE64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FC878F1C59CF2F009CE64E /* LaunchScreen.storyboard */; };
+		B3FC87AF1C59CF78009CE64E /* LoginBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC879D1C59CF78009CE64E /* LoginBaseViewController.m */; };
+		B3FC87B01C59CF78009CE64E /* LoginMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC879F1C59CF78009CE64E /* LoginMainViewController.m */; };
+		B3FC87B41C59CF78009CE64E /* FindPasswordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87A81C59CF78009CE64E /* FindPasswordButton.m */; };
+		B3FC87B51C59CF78009CE64E /* LoginAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87AA1C59CF78009CE64E /* LoginAnimationView.m */; };
+		B3FC87B61C59CF78009CE64E /* VerificationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87AC1C59CF78009CE64E /* VerificationButton.m */; };
+		B3FC87B71C59CF78009CE64E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FC87AD1C59CF78009CE64E /* Login.storyboard */; };
+		B3FC87C41C59EBAA009CE64E /* UIImage+LMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87C11C59EBAA009CE64E /* UIImage+LMExtension.m */; };
+		B3FC87C51C59EBAA009CE64E /* UIViewController+Identifier.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87C31C59EBAA009CE64E /* UIViewController+Identifier.m */; };
+		B3FC87D21C59F10C009CE64E /* FindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87CB1C59F10C009CE64E /* FindPasswordViewController.m */; };
+		B3FC87D31C59F10C009CE64E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87CD1C59F10C009CE64E /* LoginViewController.m */; };
+		B3FC87D41C59F10C009CE64E /* MailFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87CF1C59F10C009CE64E /* MailFindPasswordViewController.m */; };
+		B3FC87D51C59F10C009CE64E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87D11C59F10C009CE64E /* RegisterViewController.m */; };
+		B3FC87D81C59F1D5009CE64E /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87D71C59F1D5009CE64E /* UIView+Toast.m */; };
+		B3FC87DB1C59F4BC009CE64E /* NSString+IsValid.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC87DA1C59F4BC009CE64E /* NSString+IsValid.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89E2FA500ACB7BAFF612B988 /* Pods-LoginController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginController/Pods-LoginController.debug.xcconfig"; sourceTree = "<group>"; };
+		B3FC877E1C59CF2F009CE64E /* LoginController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FC87821C59CF2F009CE64E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3FC87841C59CF2F009CE64E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3FC87851C59CF2F009CE64E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3FC87871C59CF2F009CE64E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3FC87881C59CF2F009CE64E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3FC878B1C59CF2F009CE64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3FC878D1C59CF2F009CE64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3FC87901C59CF2F009CE64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3FC87921C59CF2F009CE64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FC879C1C59CF78009CE64E /* LoginBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginBaseViewController.h; sourceTree = "<group>"; };
+		B3FC879D1C59CF78009CE64E /* LoginBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginBaseViewController.m; sourceTree = "<group>"; };
+		B3FC879E1C59CF78009CE64E /* LoginMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginMainViewController.h; sourceTree = "<group>"; };
+		B3FC879F1C59CF78009CE64E /* LoginMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginMainViewController.m; sourceTree = "<group>"; };
+		B3FC87A71C59CF78009CE64E /* FindPasswordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindPasswordButton.h; sourceTree = "<group>"; };
+		B3FC87A81C59CF78009CE64E /* FindPasswordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindPasswordButton.m; sourceTree = "<group>"; };
+		B3FC87A91C59CF78009CE64E /* LoginAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAnimationView.h; sourceTree = "<group>"; };
+		B3FC87AA1C59CF78009CE64E /* LoginAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAnimationView.m; sourceTree = "<group>"; };
+		B3FC87AB1C59CF78009CE64E /* VerificationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationButton.h; sourceTree = "<group>"; };
+		B3FC87AC1C59CF78009CE64E /* VerificationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationButton.m; sourceTree = "<group>"; };
+		B3FC87AD1C59CF78009CE64E /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B3FC87C01C59EBAA009CE64E /* UIImage+LMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LMExtension.h"; sourceTree = "<group>"; };
+		B3FC87C11C59EBAA009CE64E /* UIImage+LMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LMExtension.m"; sourceTree = "<group>"; };
+		B3FC87C21C59EBAA009CE64E /* UIViewController+Identifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Identifier.h"; sourceTree = "<group>"; };
+		B3FC87C31C59EBAA009CE64E /* UIViewController+Identifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Identifier.m"; sourceTree = "<group>"; };
+		B3FC87C81C59EC50009CE64E /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		B3FC87C91C59EC61009CE64E /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		B3FC87CA1C59F10C009CE64E /* FindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindPasswordViewController.h; sourceTree = "<group>"; };
+		B3FC87CB1C59F10C009CE64E /* FindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindPasswordViewController.m; sourceTree = "<group>"; };
+		B3FC87CC1C59F10C009CE64E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B3FC87CD1C59F10C009CE64E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B3FC87CE1C59F10C009CE64E /* MailFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailFindPasswordViewController.h; sourceTree = "<group>"; };
+		B3FC87CF1C59F10C009CE64E /* MailFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailFindPasswordViewController.m; sourceTree = "<group>"; };
+		B3FC87D01C59F10C009CE64E /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		B3FC87D11C59F10C009CE64E /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		B3FC87D61C59F1D5009CE64E /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		B3FC87D71C59F1D5009CE64E /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		B3FC87D91C59F4BC009CE64E /* NSString+IsValid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsValid.h"; sourceTree = "<group>"; };
+		B3FC87DA1C59F4BC009CE64E /* NSString+IsValid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsValid.m"; sourceTree = "<group>"; };
+		C161E662AB023B25340F584B /* Pods-LoginController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginController/Pods-LoginController.release.xcconfig"; sourceTree = "<group>"; };
+		CA84F176DF7354F44B77E475 /* Pods_LoginController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3FC877B1C59CF2F009CE64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C2057285DE030CFF569F75 /* Pods_LoginController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7414A13E03EFCB93E3492B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA84F176DF7354F44B77E475 /* Pods_LoginController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B25B5786C8F2616431244F3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89E2FA500ACB7BAFF612B988 /* Pods-LoginController.debug.xcconfig */,
+				C161E662AB023B25340F584B /* Pods-LoginController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3FC87751C59CF2F009CE64E = {
+			isa = PBXGroup;
+			children = (
+				B3FC87801C59CF2F009CE64E /* LoginController */,
+				B3FC877F1C59CF2F009CE64E /* Products */,
+				B25B5786C8F2616431244F3C /* Pods */,
+				7414A13E03EFCB93E3492B1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FC877F1C59CF2F009CE64E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC877E1C59CF2F009CE64E /* LoginController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3FC87801C59CF2F009CE64E /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC87981C59CF78009CE64E /* Login */,
+				B3FC87841C59CF2F009CE64E /* AppDelegate.h */,
+				B3FC87851C59CF2F009CE64E /* AppDelegate.m */,
+				B3FC87871C59CF2F009CE64E /* ViewController.h */,
+				B3FC87881C59CF2F009CE64E /* ViewController.m */,
+				B3FC878A1C59CF2F009CE64E /* Main.storyboard */,
+				B3FC878D1C59CF2F009CE64E /* Assets.xcassets */,
+				B3FC878F1C59CF2F009CE64E /* LaunchScreen.storyboard */,
+				B3FC87921C59CF2F009CE64E /* Info.plist */,
+				B3FC87811C59CF2F009CE64E /* Supporting Files */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		B3FC87811C59CF2F009CE64E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC87821C59CF2F009CE64E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3FC87981C59CF78009CE64E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC87BE1C59EB6F009CE64E /* Utils */,
+				B3FC87991C59CF78009CE64E /* Controllers */,
+				B3FC87A61C59CF78009CE64E /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B3FC87991C59CF78009CE64E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC879C1C59CF78009CE64E /* LoginBaseViewController.h */,
+				B3FC879D1C59CF78009CE64E /* LoginBaseViewController.m */,
+				B3FC879E1C59CF78009CE64E /* LoginMainViewController.h */,
+				B3FC879F1C59CF78009CE64E /* LoginMainViewController.m */,
+				B3FC87CC1C59F10C009CE64E /* LoginViewController.h */,
+				B3FC87CD1C59F10C009CE64E /* LoginViewController.m */,
+				B3FC87D01C59F10C009CE64E /* RegisterViewController.h */,
+				B3FC87D11C59F10C009CE64E /* RegisterViewController.m */,
+				B3FC87CA1C59F10C009CE64E /* FindPasswordViewController.h */,
+				B3FC87CB1C59F10C009CE64E /* FindPasswordViewController.m */,
+				B3FC87CE1C59F10C009CE64E /* MailFindPasswordViewController.h */,
+				B3FC87CF1C59F10C009CE64E /* MailFindPasswordViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B3FC87A61C59CF78009CE64E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC87AD1C59CF78009CE64E /* Login.storyboard */,
+				B3FC87A71C59CF78009CE64E /* FindPasswordButton.h */,
+				B3FC87A81C59CF78009CE64E /* FindPasswordButton.m */,
+				B3FC87A91C59CF78009CE64E /* LoginAnimationView.h */,
+				B3FC87AA1C59CF78009CE64E /* LoginAnimationView.m */,
+				B3FC87AB1C59CF78009CE64E /* VerificationButton.h */,
+				B3FC87AC1C59CF78009CE64E /* VerificationButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3FC87BE1C59EB6F009CE64E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC87C71C59EC3B009CE64E /* Macros */,
+				B3FC87BF1C59EB80009CE64E /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B3FC87BF1C59EB80009CE64E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC87D61C59F1D5009CE64E /* UIView+Toast.h */,
+				B3FC87D71C59F1D5009CE64E /* UIView+Toast.m */,
+				B3FC87C01C59EBAA009CE64E /* UIImage+LMExtension.h */,
+				B3FC87C11C59EBAA009CE64E /* UIImage+LMExtension.m */,
+				B3FC87C21C59EBAA009CE64E /* UIViewController+Identifier.h */,
+				B3FC87C31C59EBAA009CE64E /* UIViewController+Identifier.m */,
+				B3FC87D91C59F4BC009CE64E /* NSString+IsValid.h */,
+				B3FC87DA1C59F4BC009CE64E /* NSString+IsValid.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B3FC87C71C59EC3B009CE64E /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC87C81C59EC50009CE64E /* AppMacros.h */,
+				B3FC87C91C59EC61009CE64E /* UtilsMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FC877D1C59CF2F009CE64E /* LoginController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FC87951C59CF2F009CE64E /* Build configuration list for PBXNativeTarget "LoginController" */;
+			buildPhases = (
+				6F04A92F1DCA048D33EE997A /* Check Pods Manifest.lock */,
+				B3FC877A1C59CF2F009CE64E /* Sources */,
+				B3FC877B1C59CF2F009CE64E /* Frameworks */,
+				B3FC877C1C59CF2F009CE64E /* Resources */,
+				F102E75CC585F212551DEB63 /* Embed Pods Frameworks */,
+				DA3510E25987F768041643CD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginController;
+			productName = LoginController;
+			productReference = B3FC877E1C59CF2F009CE64E /* LoginController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3FC87761C59CF2F009CE64E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Thomson;
+				TargetAttributes = {
+					B3FC877D1C59CF2F009CE64E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B3FC87791C59CF2F009CE64E /* Build configuration list for PBXProject "LoginController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3FC87751C59CF2F009CE64E;
+			productRefGroup = B3FC877F1C59CF2F009CE64E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FC877D1C59CF2F009CE64E /* LoginController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3FC877C1C59CF2F009CE64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC87B71C59CF78009CE64E /* Login.storyboard in Resources */,
+				B3FC87911C59CF2F009CE64E /* LaunchScreen.storyboard in Resources */,
+				B3FC878E1C59CF2F009CE64E /* Assets.xcassets in Resources */,
+				B3FC878C1C59CF2F009CE64E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F04A92F1DCA048D33EE997A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3510E25987F768041643CD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginController/Pods-LoginController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F102E75CC585F212551DEB63 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginController/Pods-LoginController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FC877A1C59CF2F009CE64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC87C41C59EBAA009CE64E /* UIImage+LMExtension.m in Sources */,
+				B3FC87B41C59CF78009CE64E /* FindPasswordButton.m in Sources */,
+				B3FC87891C59CF2F009CE64E /* ViewController.m in Sources */,
+				B3FC87D81C59F1D5009CE64E /* UIView+Toast.m in Sources */,
+				B3FC87861C59CF2F009CE64E /* AppDelegate.m in Sources */,
+				B3FC87D21C59F10C009CE64E /* FindPasswordViewController.m in Sources */,
+				B3FC87C51C59EBAA009CE64E /* UIViewController+Identifier.m in Sources */,
+				B3FC87B01C59CF78009CE64E /* LoginMainViewController.m in Sources */,
+				B3FC87B51C59CF78009CE64E /* LoginAnimationView.m in Sources */,
+				B3FC87D41C59F10C009CE64E /* MailFindPasswordViewController.m in Sources */,
+				B3FC87D31C59F10C009CE64E /* LoginViewController.m in Sources */,
+				B3FC87B61C59CF78009CE64E /* VerificationButton.m in Sources */,
+				B3FC87DB1C59F4BC009CE64E /* NSString+IsValid.m in Sources */,
+				B3FC87D51C59F10C009CE64E /* RegisterViewController.m in Sources */,
+				B3FC87AF1C59CF78009CE64E /* LoginBaseViewController.m in Sources */,
+				B3FC87831C59CF2F009CE64E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3FC878A1C59CF2F009CE64E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FC878B1C59CF2F009CE64E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3FC878F1C59CF2F009CE64E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FC87901C59CF2F009CE64E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3FC87931C59CF2F009CE64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3FC87941C59CF2F009CE64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3FC87961C59CF2F009CE64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E2FA500ACB7BAFF612B988 /* Pods-LoginController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomson.LoginController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3FC87971C59CF2F009CE64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C161E662AB023B25340F584B /* Pods-LoginController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomson.LoginController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3FC87791C59CF2F009CE64E /* Build configuration list for PBXProject "LoginController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FC87931C59CF2F009CE64E /* Debug */,
+				B3FC87941C59CF2F009CE64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FC87951C59CF2F009CE64E /* Build configuration list for PBXNativeTarget "LoginController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FC87961C59CF2F009CE64E /* Debug */,
+				B3FC87971C59CF2F009CE64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3FC87761C59CF2F009CE64E /* Project object */;
+}
